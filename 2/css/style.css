@@ -103,6 +103,15 @@ body::-webkit-scrollbar-thumb {
 	padding: 0px 40px;
 	clear:both;
 }
+ #video {
+ position: absolute;
+ left: 0;
+ top: 0;
+ width: 100%;
+ height: auto;
+ z-index: -10;
+ visibility: visible;
+ }
 .player {
   position: relative;
   height: 0;
