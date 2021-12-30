@@ -103,15 +103,7 @@ body::-webkit-scrollbar-thumb {
 	padding: 0px 40px;
 	clear:both;
 }
- #video {
- position: absolute;
- left: 0;
- top: 0;
- width: 100%;
- height: auto;
- z-index: -10;
- visibility: visible;
- }
+
 .player {
   position: relative;
   height: 0;
@@ -128,18 +120,6 @@ body::-webkit-scrollbar-thumb {
   height: 100%;
 }
 
-* { margin:0; padding:0; }
-
-html, body { width:100vw; height:100vh; } /* just to be sure these are full screen*/
-
-canvas { 
-   overflow: hidden;
-   width:100vw;
-   height:100vh;
-   background-color: #fff6f1;
-   color: #888888;
-}
-	
 h1, h2, h3, h4, h5, h6{
 	font-weight:600;
 	line-height: 1.2;
