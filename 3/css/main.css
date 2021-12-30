@@ -1225,6 +1225,22 @@ input::placeholder {
   transition: all 0.3s ease-out 0s;
 }
 
+.redes li a {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  background: #ffffff;
+  color: #618b9d;
+  margin-right: 5px;
+  -webkit-transition: all 0.3s ease-out 0s;
+  -moz-transition: all 0.3s ease-out 0s;
+  -ms-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+}
+
 .footer-social-link li a:hover {
   background: #ff6136;
   color: #fff;
